@@ -21,7 +21,7 @@ With this magical Express.js overload, you can now use the famous dollar sign `$
 To install Server-Side jQuery, simply run:
 
 ```bash
-npm install server-side-jquery
+npm i jquery-server
 ``` 
 
 ## Getting started
