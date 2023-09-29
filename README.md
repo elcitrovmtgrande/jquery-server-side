@@ -33,7 +33,7 @@ $('/').get((req, res) => {
   res.send('Hello, Server-Side jQuery!');
 });
 
-$.('server').start(); // optionnal pass a port number
+$('server').start(); // optionnal pass a port number
 ```
 
 ## License
