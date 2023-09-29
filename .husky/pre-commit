@@ -1,7 +1,2 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
-
-# npm run build
-# cp dist/index.js index.js
-# npm version patch
-# git add .
