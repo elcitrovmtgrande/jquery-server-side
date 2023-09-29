@@ -26,21 +26,14 @@ npm install server-side-jquery
 
 ## Getting started
 ```typescript
-const express = require('express');
 const $ = require('server-side-jquery');
 
-const app = express();
-const port = 3000;
-
 // Use $ to create routes - because why not?
-$.get('/', (req, res) => {
+$('/').get((req, res) => {
   res.send('Hello, Server-Side jQuery!');
 });
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
-```
+$.('server').start(); // optionnal pass a port number
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
