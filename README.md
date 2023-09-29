@@ -26,7 +26,7 @@ npm i jquery-server
 
 ## Getting started
 ```typescript
-const $ = require('server-side-jquery');
+const $ = require('jquery-server');
 
 // Use $ to create routes - because why not?
 $('/').get((req, res) => {
